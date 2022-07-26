@@ -1,38 +1,62 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#main-container{
+  margin: 3rem 32rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.label-1{
+  margin-right: 61px;
+  color: dodgerblue;
+  font-size: 1.3rem;
+  padding: 65px 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.label-2{
+  margin-right: 66px;
+  color: dodgerblue;
+  font-size: 1.3rem;
+}
+
+.label-3{
+  margin-right: 30px;
+  color: dodgerblue;
+  font-size: 1.3rem;
+}
+
+.label-4{
+  margin-right: 30px;
+  color: dodgerblue;
+  font-size: 1.3rem;
+}
+
+input{
+  padding: 4px 0;
+  padding-left: 40px;
+  font-size: 14px;
+}
+button{
+  margin-left: 40px;
+  padding: 7px 15px;
+  margin-top: 10px;
+  color: dodgerblue;
+  background-color: white;
+  border: 2px solid dodgerblue;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover{
   color: white;
+  background-color: dodgerblue;
+  border: 2px solid white;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#field{
+  margin: 20px 0;
 }
